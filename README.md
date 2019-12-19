@@ -1,5 +1,5 @@
 # Sports-Analytics
 
-Machine learning project by Adam Cole, Matei Lupu, and Jake Wallin.
+Finding trends in sports data using different Machine Learning models.
 
-Our goal is to find trends in sports data using Machine Learning models.
+my_sql.py - taken from mlupu98, helps connect to my_sql using python packages.
