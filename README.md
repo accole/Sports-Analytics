@@ -2,6 +2,9 @@
 
 Finding trends in sports data using different Machine Learning models.
 
+This project gave me useful experience in Data Cleaning from large CSV files with NaNs, and testing
+multiple different models to see which fits best.
+
 # knn_position.py
 
 - Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors Classification.
