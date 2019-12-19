@@ -4,7 +4,7 @@ Finding trends in sports data using different Machine Learning models.
 
 # knn_position.py
 
-- Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors
+- Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors Classification.
 - Highest recorded test accuracy = % (K = 11)
 - (K = 3) test accuracy = %
 - In this learning problem, higher values of K will fit the model better to the test data, but the
@@ -12,9 +12,11 @@ Finding trends in sports data using different Machine Learning models.
   positions fall in multiple classification groups (ex. C-F's can be amongst Centers or Forwards).
   Therefore, lower values of K represent these "intermediary" positions better since they are more
   dispersed, but overall there are more "1-position" players in our Dataset, so more C, F, and G are
-  classified correctly.
-- KNN graphs before and after classification are plotted in KNN Graphs folder
+  classified correctly (this can be seen in KNN Graphs).
+- KNN graphs before and after classification are plotted in KNN Graphs folder.
 
 # connect_mysql.py
  
- - taken from mlupu98, helps connect to my_sql using python packages.
+ - Taken from Matei Lupu (mlupu98).
+ - Connects to MySql databases using python packages.
+ - Avoids parsing through CSV files every test run.
