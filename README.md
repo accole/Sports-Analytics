@@ -8,6 +8,7 @@ multiple different models to see which fits best.
 # knn_position.py
 
 - Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors Classification.
+- # Features used = 2
 - Highest recorded test accuracy = 63.7% (K = 11)
 - (K = 3) test accuracy = %
 - In this learning problem, higher values of K will fit the model better to the test data, but the
