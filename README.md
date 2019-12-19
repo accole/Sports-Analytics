@@ -8,7 +8,7 @@ multiple different models to see which fits best.
 # knn_position.py
 
 - Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors Classification.
-- # Features used = 2
+- Features used = Height, Weight (2)
 - Highest recorded test accuracy = 63.7% (K = 11)
 - (K = 3) test accuracy = 53.3%
 - In this learning problem, higher values of K will fit the model better to the test data, but the
@@ -18,6 +18,13 @@ multiple different models to see which fits best.
   dispersed, but overall there are more "1-position" players in our Dataset, so more C, F, and G are
   classified correctly (this can be seen in KNN Graphs).
 - KNN graphs before and after classification are plotted in KNN Graphs folder.
+
+
+# parse_csv.py
+
+- Cleans large CSV files into simple, usable data for knn_position.py modeling.
+- Drops NaNs, converts strings heights to integers, etc.
+
 
 # connect_mysql.py
  
