@@ -24,10 +24,12 @@ multiple different models to see which fits best.
 
 - Cleans large CSV files into simple, usable data for knn_position.py modeling.
 - Drops NaNs, converts strings heights to integers, etc.
+- Avoids parsing through CSV files every test run.
 
 
 # connect_mysql.py
  
  - Taken from Matei Lupu (mlupu98).
+ - Currently unused in development.
  - Connects to MySql databases using python packages.
  - Avoids parsing through CSV files every test run.
