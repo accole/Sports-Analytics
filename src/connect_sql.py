@@ -1,3 +1,5 @@
+#written by mlupu98
+
 import mysql.connector
 import pandas as pd
 
