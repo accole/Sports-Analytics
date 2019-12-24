@@ -19,13 +19,23 @@ multiple different models to see which fits best.
   classified correctly (this can be seen in KNN Graphs).
 - KNN graphs before and after classification are plotted in KNN Graphs folder.
 
+# kmeans_position.py
+
+- Attempts to model NBA positions by a players' height and weight using KMeans Clustering as Classification.
+- Features used = Height, Weight (2)
+- By using KMeans to classify our data, it only makes sense to use 5 and 3 clusters.  5 clusters attempts to
+  use KMeans to assign each position in our data to a cluster, but the overlap between intermediary positions
+  FG and CF and our inherently inseperable data does not allow clustering to sucessfully classify our data.
+- Using 5 clusters, we reach test accuracy = 45%
+- Using 3 clusters, we reach test accuracy = 52%
+- 
+
 
 # parse_csv.py
 
 - Cleans large CSV files into simple, usable data for knn_position.py modeling.
 - Drops NaNs, converts strings heights to integers, etc.
 - Avoids parsing through CSV files every test run.
-
 
 # connect_mysql.py
  
