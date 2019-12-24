@@ -2,16 +2,6 @@
 import csv
 import pandas as pd
 
-#goal of this is to map height and weight to try and predict position using height and weight of the player
-#using KNN classification
-
-
-#Thoughts:
-#   - must use a stratified K fold since the "in between" positions seem underrepresented
-#     in the training data
-#   - then use cross validation to decide what k is best for all categories
-#   - legend should have better colors
-
 
 def convert_height(str_height):
     #converts a string height rep into integer rep
