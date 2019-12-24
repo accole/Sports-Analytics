@@ -17,7 +17,7 @@ multiple different models to see which fits best.
   Therefore, lower values of K represent these "intermediary" positions better since they are more
   dispersed, but overall there are more "1-position" players in our Dataset, so more C, F, and G are
   classified correctly (this can be seen in KNN Graphs).
-- KNN graphs before and after classification are plotted in KNN Graphs folder.
+- KNN graphs before and after classification are plotted in the KNN Graphs folder.
 
 # kmeans_position.py
 
@@ -28,8 +28,13 @@ multiple different models to see which fits best.
   FG and CF and our inherently inseperable data does not allow clustering to sucessfully classify our data.
 - Using 5 clusters, we reach test accuracy = 45%
 - Using 3 clusters, we reach test accuracy = 52%
-- 
-
+- 3 clusters generalizes our test data better for the same reason that KNN = 11 generalizes our test data
+  better.  Assuming there are only 3 categories of positions, the data becomes more seperable as the 
+  intermediary positions become the decision boundaries.
+- In our dataset, clustering does not prove effective since our data is inseperable.  But if we add another
+  feature to our feature vector, we might be able to seperate our data.  But in our dataset, we only have
+  2 quantatative features height and weight.  Therefore, there is no way to further seperate our data.
+- KMeans graphs before and after clustering are plotted in the Clustering Graphs folder.
 
 # parse_csv.py
 
