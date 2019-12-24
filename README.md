@@ -9,7 +9,7 @@ multiple different models to see which fits best.
 
 - Attempts to model NBA positions by a players' height and weight using K Nearest Neighbors Classification.
 - Features used = Height, Weight (2)
-- Highest recorded test accuracy = # 63.7% (K = 11)
+- Highest recorded test accuracy = 63.7% (K = 11)
 - (K = 3) test accuracy = 53.3%
 - In this learning problem, higher values of K will fit the model better to the test data, but the
   resulting graph does not appear grouped as Data_with_Lables.png does.  This is because C-F and F-G
