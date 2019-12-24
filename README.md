@@ -36,9 +36,9 @@ multiple different models to see which fits best.
   2 quantatative features height and weight.  Therefore, there is no way to further seperate our data.
 - KMeans graphs before and after clustering are plotted in the Clustering Graphs folder.
 
-# parse_csv.py
+# nba_parse_csv.py
 
-- Cleans large CSV files into simple, usable data for knn_position.py modeling.
+- Cleans large NBA CSV files into simple, usable data for knn_position.py and kmeans_position.py modeling.
 - Drops NaNs, converts strings heights to integers, etc.
 - Avoids parsing through CSV files every test run.
 
