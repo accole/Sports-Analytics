@@ -19,6 +19,11 @@ multiple different models to see which fits best.
   classified correctly (this can be seen in KNN Graphs).
 - KNN graphs before and after classification are plotted in the KNN Graphs folder.
 
+K = 3 :
+
+![icons](KNN Graphs/K=3.jpg)
+
+
 # kmeans_position.py
 
 - Attempts to model NBA positions by a players' height and weight using KMeans Clustering as Classification.
