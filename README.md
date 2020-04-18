@@ -21,7 +21,7 @@ multiple different models to see which fits best.
 
 K = 3 :
 
-![icons](KNN Graphs/Data_with_labels.png)
+  ![icons](KNN Graphs/Data_with_labels.png)
 
 
 # kmeans_position.py
