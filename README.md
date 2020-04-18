@@ -21,7 +21,7 @@ multiple different models to see which fits best.
 
 K = 3 :
 
-![icons](KNN Graphs/K = 3.png)
+![icons]('KNN Graphs'/'K = 3.png')
 
 
 # kmeans_position.py
